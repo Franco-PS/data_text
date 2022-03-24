@@ -7,7 +7,7 @@ Cada historia debe de cumplir una única funcionalidad y no debe de depender de 
 - titulo
 - descripción
 <!-- Los requerimientos se escriben empezando de los más importantes (con mayor detalle) y a los menos importantes -->
-<!-- Cada uno de los bloques (ProB) se dividen en tareas técnicas -->
+<!-- Cada uno de los bloques - items (ProB-I) se dividen en tareas técnicas -->
   - Cómo? <rol> (quien/cómo se ejecutara)
   - funcionalidad? <acción> (como se ejecutara)
   - Para? <veneficios> (la acción da un valor)

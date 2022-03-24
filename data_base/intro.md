@@ -1,9 +1,23 @@
 Base de datos
 
+Base de datos: es el almacenamiento de datos puntuales, que se ocupa para convertir la información
+
 Relation Base Date (RBD)
 No Onlyl Relation Base Date (NORBD)
 
+Tipos de tablas
+MyISAM: es rápida (transacciones uno a uno)
+InnoDB: es más lenta.
+<!-- las tablas se ocupan con dos propósitos -->
+- catalogo: la tabla crecere en un orden lento
+- operación: se enfoca en la lectura (accede más veces al disco duro)
+
+<!-- --------------------------------------------- -->
+
 Entidades = objetos: Fuertes | debíles | artificiales
+tip: 
+  plural-ingles
+  Lo que necesita una tabla (id)
 atributos = llave primaria | compuestos | multi-valuados | 
 
 Normalización (los 12 mandamientos de Job)
@@ -13,11 +27,11 @@ Normalización (los 12 mandamientos de Job)
 4. los campos multi-valuados, se identifican con clave única
 
 cadena | núm | fecha/hora | lógicos
-char(#)-memoría estatica | int - integer | date | boolean
-varchar(#)-memoría dinámica | bigint - muy grande | time
-text - cadena inmensa | smallint -corto < 90 | datatime
-  | decimal (n,s)n-num, s-num de decimales |  | timestamp
-  | numeric (n,s)| |
+char(#)-memoría estatica | int - integer           | date | boolean
+varchar(#)-memoría dinámica | bigint - muy grande  | time
+text - cadena inmensa       | smallint -corto < 90 | datatime
+                            | decimal (n,s)n-num, s-num de decimales | timestamp |
+                            | numeric (n,s)| |
 
 constraint
 not null (nn)
@@ -36,9 +50,5 @@ SQL
 - DDL Data Definition Language: estructura inicial; create | alter | drop
 - DML Data Manupulation Language: manipula contenido; insert | update | delete | select
 
-Cómo hacer preguntas
-Conjunto A left join conjunto B
-Conjunto A right join conjunto B
-Conjunto A inner join conjunto B
-Conjunto A union conjunto B
-Conjunto A outer join conjunto B
+
+Teoria de conjuntos
