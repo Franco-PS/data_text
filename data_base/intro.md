@@ -26,7 +26,7 @@ Normalización (los 12 mandamientos de Job)
 3. tersera forma: los campos no clave deben de tener dependencias
 4. los campos multi-valuados, se identifican con clave única
 
-cadena | núm | fecha/hora | lógicos
+cadena                   | núm | fecha/hora | lógicos
 char(#)-memoría estatica | int - integer           | date | boolean
 varchar(#)-memoría dinámica | bigint - muy grande  | time
 text - cadena inmensa       | smallint -corto < 90 | datatime
