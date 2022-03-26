@@ -1,5 +1,6 @@
 Metodologías ágiles (MÁ)
 Es un nuevo modelo de organización enfocado en las personas
+Frederic Laloux libro: Evolucion de las organizaciones
 Pilares MÁ: Ciclo interactivo. equipo multidiciplinarios. Liderazgo e integración. Priorización
 valor manifiesto ágil: 
 Personas/ herramientas
@@ -20,7 +21,7 @@ Eventos: Se crean con el fin de regular
 Artefactos: Proporcionan transparencia en los requeriemientos
 
 Artefactos:
-ProB Product Backlog (pila de producto)
+ProB Product Backlog (pila de producto - Historias de usuario)
 <!-- ProB: pueden tener distintos formatos uno de ellos son las llamadas historias de husuario -->
 ProBI  Product Backlog Items
 ProBR Product Backlog Refiment
