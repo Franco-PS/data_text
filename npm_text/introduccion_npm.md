@@ -12,3 +12,12 @@ npm : es un gestor de paquetes para JavaScript. Gestiona versiones (paquetes/lib
          1. la carpeta mement/ -> es donde se guardara los modulos que agregas al proyecto (no se manda al repositorio)
          2. paquete requierido de forma global
             1. -g nodemon | npm list -g --depth 0 -> busqueda profunda
+            2. npm install react --dry-run -> mostrara como y que intalara
+            3. npm install webpack -f 
+         3. Actualizar paquetes
+            1. npm outdate -> conocer que paquete esta desactualizar
+            2. npm outdate --dd (dd = output detailed)
+            3. npm update ->actualiza paquetes
+            4. npm install nomPaquete@latest -> latest = paquete más actual
+            5. npm uninstall json-server -> desintalar paquete
+            6. npm uninstall webpack --no-save
