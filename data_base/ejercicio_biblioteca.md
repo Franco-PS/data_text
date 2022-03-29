@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS books(
     book_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     author_id INTEGER UNSIGNED,
     title VARCHAR(100) NOT NULL,
+    <!-- Se ponene las `` cuando ocupamos nombres de atributos como variables -->
     `year` INTEGER UNSIGNED NOT NULL,
     `language` VARCHAR(2) NOT NULL DEFAULT 'es' COMMENT 'ISO 639-1 Language',
     `cover_url` VARCHAR(200),

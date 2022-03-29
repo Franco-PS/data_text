@@ -21,7 +21,7 @@ tip:
 atributos = llave primaria | compuestos | multi-valuados | 
 
 Normalización (los 12 mandamientos de Job)
-1. forma normal: atributos no repetidos
+1. primera forma: atributos no repetidos
 2. segunda forma: cada campo dependera de una clave única
 3. tersera forma: los campos no clave deben de tener dependencias
 4. los campos multi-valuados, se identifican con clave única
