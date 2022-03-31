@@ -20,4 +20,8 @@ npm : es un gestor de paquetes para JavaScript. Gestiona versiones (paquetes/lib
             3. npm update ->actualiza paquetes
             4. npm install nomPaquete@latest -> latest = paquete más actual
             5. npm uninstall json-server -> desintalar paquete
-            6. npm uninstall webpack --no-save
+            6. npm uninstall webpack --no-save -> desintalar solo en node_modules
+         4. ejecutar en "scripts":
+            1. el nombre debe de ser descriptivo
+            2. "nombre": "un valor/comandos",
+            3. npm test | npm start -> inicia los proyectos

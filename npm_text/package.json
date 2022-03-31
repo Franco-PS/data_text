@@ -4,7 +4,8 @@
   "description": "construir un paquete para node",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hola":"node"
   },
   "keywords": [
     "javascript",
@@ -14,11 +15,11 @@
   "author": "francisco",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "webpack": "^5.70.0"
   },
   "devDependencies": {
-    "date-fns": "^2.28.0",
-    "webpack": "^5.70.0"
+    "date-fns": "^2.28.0"
   },
   "optionalDependencies": {
     "eslint": "^8.12.0"
