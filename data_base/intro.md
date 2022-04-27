@@ -5,12 +5,24 @@ Base de datos: es el almacenamiento de datos puntuales, que se ocupa para conver
 Relation Base Date (RBD)
 No Onlyl Relation Base Date (NORBD)
 
-Tipos de tablas
-MyISAM: es rápida (transacciones uno a uno)
-InnoDB: es más lenta.
+RDBMS (Relational Database Management System)
+- MySQL
+- Posgress
+- Oracle
+
+## Diseño de Base de datos
+Existen dos potentes motores que ofrece MySQL, que se clasifican según su velocidad y escritura.
+Es muy importante encontrar el funcionamiento predominante de nuestro sistema.
+- ¿la escritura de datos sera seguida?
+- ¿Necesitamos hacer consultas constantemente?
+- Es importante cumplir con ACID (Atomicidad, Consistencia, Aislamiento y Durabilidad)?
+
+
+InnoDB: escritura/lectura es más lenta.
+MyISAM: escritura/lectura es rápida.
 <!-- las tablas se ocupan con dos propósitos -->
-- catalogo: la tabla crecere en un orden lento
-- operación: se enfoca en la lectura (accede más veces al disco duro)
+- catalogo: la tabla crecera en un orden lento (InnoDB)
+- operación: se enfoca en la lectura accede más veces al disco duro (MyISAM)
 
 <!-- --------------------------------------------- -->
 
@@ -26,14 +38,19 @@ Normalización (los 12 mandamientos de Job)
 3. tersera forma: los campos no clave deben de tener dependencias
 4. los campos multi-valuados, se identifican con clave única
 
-cadena                   | núm | fecha/hora | lógicos
-char(#)-memoría estatica | int - integer           | date | boolean
+## Tipo de datos
+
+cadena                      | núm                  | fecha/hora     | lógicos
+char(#)-memoría estatica    | int - integer        | date           | boolean
 varchar(#)-memoría dinámica | bigint - muy grande  | time
 text - cadena inmensa       | smallint -corto < 90 | datatime
-                            | decimal (n,s)n-num, s-num de decimales | timestamp |
+                            | decimal (n,s)n-num, 
+                            |  s-num de decimales   | timestamp |
                             | numeric (n,s)| |
 
-constraint
+## Constraint
+Son restricciones que nos ayuda a asegurar la integridad de datos almacenados 
+son objetos propios de la base de datos
 not null (nn)
 unique (uq)
 primary key (pk)
