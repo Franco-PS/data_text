@@ -1,14 +1,17 @@
-Base de datos
+# Base de datos
 
 Base de datos: es el almacenamiento de datos puntuales, que se ocupa para convertir la información
+SQL (Structured Query Language)
 
 Relation Base Date (RBD)
 No Onlyl Relation Base Date (NORBD)
 
-RDBMS (Relational Database Management System)
+### RDBMS (Relational Database Management System)
 - MySQL
 - Posgress
 - Oracle
+### Cliente gráfico
+- mySQL -> Workbench
 
 ## Diseño de Base de datos
 Existen dos potentes motores que ofrece MySQL, que se clasifican según su velocidad y escritura.
@@ -21,7 +24,7 @@ Es muy importante encontrar el funcionamiento predominante de nuestro sistema.
 InnoDB: escritura/lectura es más lenta.
 MyISAM: escritura/lectura es rápida.
 <!-- las tablas se ocupan con dos propósitos -->
-- catalogo: la tabla crecera en un orden lento (InnoDB)
+- catalogo: la tabla crecerá en un orden lento (InnoDB)
 - operación: se enfoca en la lectura accede más veces al disco duro (MyISAM)
 
 <!-- --------------------------------------------- -->
@@ -50,7 +53,6 @@ text - cadena inmensa       | smallint -corto < 90 | datatime
 
 ## Constraint
 Son restricciones que nos ayuda a asegurar la integridad de datos almacenados 
-son objetos propios de la base de datos
 not null (nn)
 unique (uq)
 primary key (pk)
@@ -63,8 +65,8 @@ Diagramas
 entidad relación
 cardinalidad: 
 
-SQL
-- DDL Data Definition Language: estructura inicial; create | alter | drop
+## Comandos SQL
+- DDL Data Definition Language: _estructura inicial_; create | alter | drop
 - DML Data Manupulation Language: manipula contenido; insert | update | delete | select
 
 

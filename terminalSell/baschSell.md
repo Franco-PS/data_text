@@ -37,6 +37,8 @@ find      -> busca archivos/directorios
 find /home -name nombreArchivoCarpeta
 find /home -type -df nombreArchivoCarpeta -> d= carpeta f= archivo
 
+whereis name*
+
 ## grep
 permite encontrar coincidencias en archivos
 grep [Towers](expresiones regulares) nombre-archivo
